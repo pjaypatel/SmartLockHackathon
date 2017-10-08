@@ -35,9 +35,6 @@
                                 <color key="textColor" red="0.70029139518737793" green="0.60731011629104614" blue="0.41180738806724548" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ucfKnight copy" translatesAutoresizingMaskIntoConstraints="NO" id="cCz-sU-ZId">
-                                <rect key="frame" x="103" y="440" width="182" height="139"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oe2-fu-oPK">
                                 <rect key="frame" x="150.5" y="273" width="74" height="30"/>
                                 <color key="backgroundColor" red="0.5209192576142132" green="0.5209192576142132" blue="0.5209192576142132" alpha="0.52000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
@@ -68,6 +65,9 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ucfKnight copy" translatesAutoresizingMaskIntoConstraints="NO" id="cCz-sU-ZId">
+                                <rect key="frame" x="104" y="508" width="182" height="139"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -76,9 +76,9 @@
                             <constraint firstItem="d2g-rW-ESa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="136" id="8EJ-yf-1yT"/>
                             <constraint firstItem="BDc-wc-SRt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8xH-GZ-BnP"/>
                             <constraint firstItem="Db1-9h-F5J" firstAttribute="top" secondItem="BDc-wc-SRt" secondAttribute="bottom" constant="1" id="C4C-AZ-oU9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cCz-sU-ZId" secondAttribute="bottom" constant="20" id="NTh-XZ-YU1"/>
                             <constraint firstItem="d2g-rW-ESa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Qfy-fR-JYW"/>
                             <constraint firstItem="oe2-fu-oPK" firstAttribute="top" secondItem="Db1-9h-F5J" secondAttribute="bottom" constant="9" id="Yti-dc-FN6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cCz-sU-ZId" secondAttribute="bottom" constant="88" id="f86-SM-raB"/>
                             <constraint firstItem="cCz-sU-ZId" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gme-kM-4GB"/>
                             <constraint firstItem="UE1-Sf-K2e" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hxw-1q-QIa"/>
                             <constraint firstItem="d2g-rW-ESa" firstAttribute="top" secondItem="iRu-WL-ohJ" secondAttribute="bottom" constant="8" id="qBP-Bl-1oe"/>
