@@ -77,8 +77,8 @@
                             <constraint firstItem="BDc-wc-SRt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8xH-GZ-BnP"/>
                             <constraint firstItem="Db1-9h-F5J" firstAttribute="top" secondItem="BDc-wc-SRt" secondAttribute="bottom" constant="1" id="C4C-AZ-oU9"/>
                             <constraint firstItem="d2g-rW-ESa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Qfy-fR-JYW"/>
-                            <constraint firstItem="cCz-sU-ZId" firstAttribute="top" secondItem="oe2-fu-oPK" secondAttribute="bottom" constant="137" id="WNj-1S-xTk"/>
                             <constraint firstItem="oe2-fu-oPK" firstAttribute="top" secondItem="Db1-9h-F5J" secondAttribute="bottom" constant="9" id="Yti-dc-FN6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cCz-sU-ZId" secondAttribute="bottom" constant="88" id="f86-SM-raB"/>
                             <constraint firstItem="cCz-sU-ZId" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gme-kM-4GB"/>
                             <constraint firstItem="UE1-Sf-K2e" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hxw-1q-QIa"/>
                             <constraint firstItem="d2g-rW-ESa" firstAttribute="top" secondItem="iRu-WL-ohJ" secondAttribute="bottom" constant="8" id="qBP-Bl-1oe"/>
