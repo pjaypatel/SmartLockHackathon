@@ -17,59 +17,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please Enter Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d2g-rW-ESa">
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please Enter Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d2g-rW-ESa">
                                 <rect key="frame" x="89" y="156" width="196" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please Enter Phone Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Db1-9h-F5J">
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please Enter Phone Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Db1-9h-F5J">
                                 <rect key="frame" x="82" y="234" width="210" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Format: ##########" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDc-wc-SRt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Format: ##########" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDc-wc-SRt">
                                 <rect key="frame" x="103" y="212" width="168" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oe2-fu-oPK">
-                                <rect key="frame" x="157" y="280" width="74" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oe2-fu-oPK">
+                                <rect key="frame" x="157" y="273" width="74" height="30"/>
                                 <color key="backgroundColor" red="0.5209192576142132" green="0.5209192576142132" blue="0.5209192576142132" alpha="0.52000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Charge On">
                                     <color key="titleColor" red="1" green="1" blue="0.0" alpha="0.86831121575342463" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendString:" destination="BYZ-38-t0r" eventType="touchDown" id="Pg1-0r-j89"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ucfKnight copy" translatesAutoresizingMaskIntoConstraints="NO" id="cCz-sU-ZId">
-                                <rect key="frame" x="103" y="311" width="182" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ucfKnight copy" translatesAutoresizingMaskIntoConstraints="NO" id="cCz-sU-ZId">
+                                <rect key="frame" x="103" y="440" width="182" height="139"/>
                             </imageView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zab-GO-LPS">
-                                <rect key="frame" x="95" y="20" width="185" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMj-8I-tOJ">
-                                <rect key="frame" x="111" y="44" width="154" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.62831138959390864" green="0.62831138959390864" blue="0.62831138959390864" alpha="0.51642765410958902" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Connect to SmartLock">
-                                    <color key="titleColor" red="1" green="1" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Db1-9h-F5J" firstAttribute="top" secondItem="BDc-wc-SRt" secondAttribute="bottom" constant="1" id="8Nm-Qn-BiT"/>
+                            <constraint firstItem="d2g-rW-ESa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Aws-rJ-CJd"/>
+                            <constraint firstItem="BDc-wc-SRt" firstAttribute="top" secondItem="d2g-rW-ESa" secondAttribute="bottom" constant="26" id="CZY-OQ-Gsh"/>
+                            <constraint firstItem="d2g-rW-ESa" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="D7d-lc-Lo8"/>
+                            <constraint firstItem="d2g-rW-ESa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="K5L-v0-94g"/>
+                            <constraint firstItem="cCz-sU-ZId" firstAttribute="top" secondItem="oe2-fu-oPK" secondAttribute="bottom" constant="8" id="K9j-U8-Mai"/>
+                            <constraint firstItem="d2g-rW-ESa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="136" id="ctb-M8-8d7"/>
+                            <constraint firstItem="oe2-fu-oPK" firstAttribute="top" secondItem="Db1-9h-F5J" secondAttribute="bottom" constant="9" id="wP4-T8-x1J"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="progressBar" destination="zab-GO-LPS" id="8UT-0n-HqA"/>
+                        <outlet property="nameField" destination="d2g-rW-ESa" id="dbO-FY-ltk"/>
+                        <outlet property="numberField" destination="Db1-9h-F5J" id="3JV-KL-SIH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

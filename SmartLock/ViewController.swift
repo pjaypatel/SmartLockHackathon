@@ -11,22 +11,17 @@ import UIKit
 class ViewController: UIViewController {
     var simpleBluetoothIO: SimpleBluetoothIO!
     
-    @IBOutlet weak var ledToggleButton: UIButton!
-    
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var numberField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         simpleBluetoothIO = SimpleBluetoothIO(serviceUUID: "a3c9025d-f942-48fb-bb7a-c2397c029f85", delegate: self)
     }
     
-    @IBAction func ledToggleButtonDown(_ sender: UIButton) {
-        simpleBluetoothIO.writeValue(value: 1)
+    @IBAction func sendString(_ sender: Any) {
+        simpleBluetoothIO.writeValue(value: 8)
     }
-    
-    @IBAction func ledToggleButtonUp(_ sender: UIButton) {
-        simpleBluetoothIO.writeValue(value: 0)
-    }
-    
 }
 
 extension ViewController: SimpleBluetoothIODelegate {
