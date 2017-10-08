@@ -19,7 +19,8 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         
-        simpleBluetoothIO = SimpleBluetoothIO(serviceUUID: "a3c9025d-f942-48fb-bb7a-c2397c029f85", delegate: self)
+        self.simpleBluetoothIO = SimpleBluetoothIO(serviceUUID: "a3c9025d-f942-48fb-bb7a-c2397c029f85", delegate: self)
+
     }
     
     func generateString(name: String, number: String) -> String
@@ -33,19 +34,33 @@ class ViewController: UIViewController
             }
             
         }
-        return newName + "," + number + " "
+        return newName + number
     }
     
-    
+    func encrypt(password: String) -> Int8
+    {
+        var result = 0
+        for c in password
+        {
+            result += Int(c.asciiValue!)
+        }
+        result = result % 127
+        print(result)
+        return Int8(result)
+    }
     
     @IBAction func sendString(_ sender: Any)
     {
         let password = generateString(name: (nameField.text)!, number: (numberField.text)!)
-        
-        for temp in password
-        {
-            simpleBluetoothIO.writeValue(value: Int8(temp.asciiValue! - UInt32(32)))
-        }
+        let encryption = encrypt(password: password)
+        print(encryption)
+        //for temp in password
+        //{
+//            let when = DispatchTime.now() + 0.3
+//            DispatchQueue.main.asyncAfter(deadline: when) {
+                simpleBluetoothIO.writeValue(value: encryption)
+//            }
+        //}
     }
 }
 
