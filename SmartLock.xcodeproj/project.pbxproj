@@ -12,6 +12,8 @@
 		E9A193811F89A77A008BE3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A1937F1F89A77A008BE3F6 /* Main.storyboard */; };
 		E9A193831F89A77A008BE3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A193821F89A77A008BE3F6 /* Assets.xcassets */; };
 		E9A193861F89A77A008BE3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A193841F89A77A008BE3F6 /* LaunchScreen.storyboard */; };
+		E9A193901F89BFFA008BE3F6 /* SimpleBluetoothIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1938F1F89BFFA008BE3F6 /* SimpleBluetoothIO.swift */; };
+		E9A193921F89C3FD008BE3F6 /* NSData+Int8.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A193911F89C3FD008BE3F6 /* NSData+Int8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E9A193821F89A77A008BE3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9A193851F89A77A008BE3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9A193871F89A77A008BE3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A1938F1F89BFFA008BE3F6 /* SimpleBluetoothIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBluetoothIO.swift; sourceTree = "<group>"; };
+		E9A193911F89C3FD008BE3F6 /* NSData+Int8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSData+Int8.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E9A1937B1F89A77A008BE3F6 /* AppDelegate.swift */,
 				E9A1937D1F89A77A008BE3F6 /* ViewController.swift */,
 				E9A1937F1F89A77A008BE3F6 /* Main.storyboard */,
+				E9A1938F1F89BFFA008BE3F6 /* SimpleBluetoothIO.swift */,
+				E9A193911F89C3FD008BE3F6 /* NSData+Int8.swift */,
 				E9A193821F89A77A008BE3F6 /* Assets.xcassets */,
 				E9A193841F89A77A008BE3F6 /* LaunchScreen.storyboard */,
 				E9A193871F89A77A008BE3F6 /* Info.plist */,
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A193901F89BFFA008BE3F6 /* SimpleBluetoothIO.swift in Sources */,
+				E9A193921F89C3FD008BE3F6 /* NSData+Int8.swift in Sources */,
 				E9A1937E1F89A77A008BE3F6 /* ViewController.swift in Sources */,
 				E9A1937C1F89A77A008BE3F6 /* AppDelegate.swift in Sources */,
 			);
